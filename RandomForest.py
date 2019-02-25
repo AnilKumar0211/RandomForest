@@ -238,7 +238,7 @@ def randomForest(noOfTrees,traindata, max_depth, min_size, n_features,targetFeat
 # =============================================================================
 def main_rf():
     #reading data
-    data=pd.read_csv('RFdata.csv')    
+    data=pd.read_csv('Rfdata.csv')    
     ##converting string to interger type
     convert_str_int(data,60)   
     n_features=int(sqrt(data.shape[1]))
